@@ -45,7 +45,7 @@ h2 {
 
 #taskList li.completed {
     text-decoration: line-through;
-    color: gray;
+    color: rgb(128, 128, 128);
 }
 
 #taskList li span {
@@ -71,6 +71,6 @@ button:active {
     background-color: #003d80;
 }
 
-.highlighted {
-    background-color: #ffffa1;
+#taskList li.highlighted {
+    background-color: red;
 }
